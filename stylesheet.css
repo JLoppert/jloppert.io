@@ -1,0 +1,50 @@
+a {
+  border-bottom: 1px solid #525254;
+  color: #949599;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #babfbb;
+  border-color: #949599;
+}
+
+body {
+  background-color: #111;
+  color: #949599;
+  font-family: 'proxima-nova-1', 'proxima-nova-2', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 100px auto;
+  width: 500px;
+}
+
+div.info {
+  padding-top: 5px;
+}
+
+div.logo {
+  float: left;
+  width: 33%;
+}
+
+div.row {
+  margin-bottom: 25px;
+}
+
+div.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img.logo {
+  height: 100px;
+  width: 100px;
+}
+
+ul {
+  list-style: none
+}
