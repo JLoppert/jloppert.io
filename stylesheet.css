@@ -4,6 +4,10 @@ a {
   text-decoration: none;
 }
 
+a.logo {
+  border-bottom: none;
+}
+
 a:hover {
   color: #babfbb;
   border-color: #949599;
